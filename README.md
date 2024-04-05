@@ -26,8 +26,6 @@ pom.xml file:
 Usage
 To secure Actuator endpoints with Actuator Spring Security, you can configure security settings in your application properties file (application.properties or application.yml). Here's an example configuration:
 
-yaml
-Copy code
 # application.properties
 server.port=8089
 management.endpoints.web.exposure.include=*
